@@ -1,0 +1,27 @@
+{
+  "name": "api-enkarga-help",
+  "version": "1.0.0",
+  "description": "Api for the project enkarga-help which provides tutorials about the way to use Enkarga web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danisetg/api-enk-help.git"
+  },
+  "author": "Daniset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danisetg/api-enk-help/issues"
+  },
+  "homepage": "https://github.com/danisetg/api-enk-help#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0",
+    "oauth2-server": "^3.0.1",
+    "objection": "^1.2.6"
+  }
+}
